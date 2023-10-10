@@ -1,1 +1,93 @@
+/*
+* --------------------------------------------
+* These are some styles of customizing 
+* to over-ride the default bootstrap ones
+*---------------------------------------------
+*/
+
+/*Given Colors:
+*Darkest: #562C2C
+*Accent: #F2542D
+*Light: #F5DFBB
+*Medium: #0E9594
+*Dark: #127475
+*/
+:root {
+    --light-green: #606C38;
+    --dark-green: #283618;
+    --cream: #FEFAE0;
+    --dark-orange: #BC6C25;
+    --light-orange: #DDA15E;
+
+}
+
+.navbar-brand {
+    font-family: 'Young Serif', serif;
+    font-size: 2rem;
+}
+
+.bg-info {
+    background-color: var(--dark-green) !important;
+    /* Medium shade for navbar */
+}
+
+.navbar-light .navbar-brand,
+.navbar-light .navbar-nav .nav-link {
+    color: var(--cream);
+    /* Light shade for brand name & nav links for contrast */
+}
+
+.btn-info {
+    color: var(--cream);
+    /* Light shade for text on info button */
+    background-color: var(--light-orange);
+    /* Accent color for button background */
+    border-color: var(--dark-orange);
+    /* Dark shade for button border */
+}
+
+.btn-primary {
+    color: var(--cream);
+    /* Light shade for text */
+    font-size: 150%;
+    background-color: var(--dark-orange);
+    /* Dark shade for primary button background */
+    border-color: var(--dark-green);
+    /* Darkest shade for border */
+    border-width: thick;
+}
+
+body {
+    background-color: var(--cream);
+    /* Light shade for body background */
+    text-align: left;
+}
+
+form {
+    padding: 24px;
+}
+
+.btn {
+    margin-top: 12px;
+    background-color: var(--light-orange);
+}
+
+.btn-outline-secondary {
+    background-color: var(--cream);
+
+}
+
+.material-symbols-outlined {
+    font-size: 40px;
+    color: var(--cream);
+    font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 24
+}
+
+.bg-info {
+    background-color: var(--dark-green);
+}
 
